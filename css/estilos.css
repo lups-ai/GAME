@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.fondogame {
+    background-image: url(../imagenes/fondo.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.scarecrow {
+    position: relative;
+    animation: halloween 10s infinite;
+    top: 37vh;
+    left: 28%;
+}
+
+@keyframes halloween {
+    0% {top: 37vh; left: 28%;}
+    35% {top: 75vh; left: 28%;}
+    50% {top: 75vh; left: 46%;}
+    65% {top: 55vh; left: 46%;}
+    70% {top: 55vh; right: 25%;}
+    80% {top: 37vh; right: 10%;}
+    100% {top: 37vh; left: 65%;}
+    
+}
+
+
+.moo-lah-lah-regular {
+    font-family: "Moo Lah Lah", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: orange;
+  }
+  
